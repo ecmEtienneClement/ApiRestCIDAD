@@ -59,6 +59,6 @@ app.use("/app/plugin/", routeAppPluging);
 app.use("/app/testToken/", routeAppTestToken);
 
 //...................................SERVER......................................
-server.listen(process.env.PORT, () => {
+server.listen(process.env.PORT || 3000, () => {
   console.log("server started at port " + process.env.PORT);
 });
