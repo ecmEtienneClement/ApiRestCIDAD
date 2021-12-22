@@ -49,7 +49,7 @@ exports.connectUser = (req, res) => {
               { userId: data_User._id },
               process.env.SECRET_KEY_TOKEN,
               {
-                expiresIn: "24h",
+                expiresIn: "72h",
               }
             ),
           });

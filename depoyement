@@ -1,0 +1,28 @@
+//  Methode pour me souvenir du deployement de mon api
+
+d'abord definir les versions de node et npm dans le fichier packge.json
+ "engines": {
+    "node": "12.x",
+    "npm": "8.x"
+  },
+
+  creer un fichier procfile et y definir le web
+  web: node main.js
+
+  telecharger ces dependances
+    "@heroku-cli/plugin-buildpacks": "^7.54.0",
+    "@heroku/buildpack-registry": "^1.0.1",
+    "async-file": "^2.0.2",
+
+    commencer le deployement
+    git add .
+    git commit
+    heroku login
+    heroku git :remote -a  api-rest-cidad-01 ==>[le nom de app]
+    git push heroku main
+    /*************
+    ************
+    et tout normalement tt devrait bien ce derouler
+    puis vous aurais le lien du api *****heroku.commencer
+
+    merci ECM......
