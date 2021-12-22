@@ -1,0 +1,16 @@
+{
+  "AppClass": [
+    {
+      "id": 1,
+      "nom": "etienne"
+    },
+    {
+      "id": 2,
+      "nom": "pape"
+    },
+    {
+      "id": 3,
+      "nom": "moussa"
+    }
+  ]
+}

@@ -1,0 +1,18 @@
+
+
+
+POST   https://api.z-api.io/instances/3A33AF6FFF1720D684B586AA720AC604/token/D12A7351E5094580BFDB0510
+[
+{
+    "phone":773937698,
+    "message":"teste"
+}
+]
+
+;
+
+
+DELETE  http://localhost:3500/app/plugin/61816f2cc7f8fabb4b219f36
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2MTc4NmY2OWZiM2YwMzk4ZTk5ZWE2OWYiLCJpYXQiOjE2MzU4NjE1NzUsImV4cCI6MTYzNTk0Nzk3NX0.55DqK-NK-aDTelAuvNDMpxN0H_AXtNnWFl_NMfNdSrA
+
+    

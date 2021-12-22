@@ -1,0 +1,5 @@
+{
+    "output.smartScroll.enabled": false,
+    "notebook.diff.ignoreOutputs": true,
+    "terminal.integrated.confirmOnExit": true
+}
